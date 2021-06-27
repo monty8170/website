@@ -17,7 +17,7 @@ style
         font-style: inherit; 
         margin: 2%;
         width: 100%;
-        color:lightcyan;
+        color:bisque;
     }  
 
     h1 {
@@ -38,7 +38,7 @@ style
         margin: 5%;
         border-style: dashed;
         height: fit-content;
-        border-radius: 50px;
+        border-radius: 45px;
     
     }
 
