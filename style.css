@@ -1,73 +1,51 @@
-style
-        
-    header {
-        border-style: solid;
-        border-width: 5px;
-        font-size: small;
-        font-weight: 400;
-        width: 15%;
-             
-    }
-
-    h2 {
-        background-color: burlywood;
-        border-style: solid;
-        border-color: crimson;
-        font-size: x-large;
-        font-style: inherit; 
-        margin: 2%;
-        width: 100%;
-        color:bisque;
-    }  
-
-    h1 {
-        
-        color:darkslategray;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;           
-      
-    }
-
-    body {
-        background-color: white;
-        font-size: large;
-        text-align: center;
-        font-family: sans-serif;
-        line-height: 45px;
-        text-align: center;
-        width: auto;
-        margin: 5%;
-        border-style: dashed;
-        height: fit-content;
-        border-radius: 45px;
+* {
+    margin: 0px;
+    padding: 0%;
+  }
+  body {
+    background-color:lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .header {
+    height: auto;
+    width: 100%;
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-style: solid;
+    border-color: silver;
     
-    }
-
-    p {
-        color: whitesmoke;
-        font-style: italic;
-
-    }
-
-    h4 {
-        float: inline-end;
-        position: relative;
-           
-
-    }
-        
-    .alignleft {
-        float: left;
-        position: absolute;
-        font-size: xx-small; font-style: italic;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-
-    }
-
-    .alignright {
-        float: right;
-        position: inherit;
-        font-size: xx-small;
-        font-style: italic;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-
-    }
+  }
+  
+  .nav-links {
+    text-align: end;
+  }
+  .image {
+    border-style: solid;
+    border-color: mediumseagreen;
+    float: right;
+  }
+  #usaf {
+    float: right;
+    margin: 0 0 0 15px;
+  }
+  .footer {
+    height: 30px;
+    width: 100%;
+    border-top-style: solid;
+    border-top-color: silver;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+  .footer-links ul li{
+    display: inline-block;
+    padding-block-start: 0%;
+    margin-top: 5px;
+    margin-left: 10%;
+  }
